@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx"
 import NewsSection from "./components/NewsSection.jsx";
 import FeaturedNews from "./components/FeaturedNews.jsx";
 import InfoCenter from "./components/InfoCenter.jsx";
@@ -36,8 +37,9 @@ function App() {
           </div>
         </div>
       </main>
+      <Footer />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
